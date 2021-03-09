@@ -1,6 +1,5 @@
 <?php
-
-require_once '../../LIB/librairie-res.php';
+require_once '../DATA/librairie-res.php';
 
 function retourne_auteur()
 {

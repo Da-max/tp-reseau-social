@@ -1,5 +1,5 @@
 .menu {
-  background-color: red;
+  background-color: rgb(225, 119, 119);
   position: fixed;
   float: left;
   width: 180px;
@@ -7,7 +7,7 @@
 }
 
 .contenu {
-  background-color: blue;
+  background-color: rgb(99, 99, 242);
   float: right;
   width: 70%;
   padding: 10px;
@@ -20,12 +20,12 @@
 }
 
 .nouveau-post {
-  background-color: pink;
+  background-color: rgb(237, 196, 203);
   /* margin: 10px; */
 }
 
 .affiche-post {
-  background-color: orange;
+  background-color: rgb(230, 194, 128);
 }
 
 .nouveau-post,
