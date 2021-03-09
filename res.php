@@ -23,7 +23,7 @@ $auteur = retourne_auteur();
     <section class="contenu">
         <h2>Bonjour <?= $auteur ?> !</h2>
         <section class="nouveau-post">
-            <form action="#" enctype="multipart/form-data">
+            <form action="#" enctype="multipart/form-data" type="post">
                 <textarea class="content-textarea" name="post-msg" id="content" cols="100" rows="10" placeholder="Quoi de neuf ?"></textarea>
                 <div class="content-file">
                     <label for="file">Ajouter une image</label>
@@ -35,7 +35,12 @@ $auteur = retourne_auteur();
         </section>
 
         <article class="affiche-post">
-            dadaz
+            <?php
+            if (isset($_POST['action']) && $_POST['action'] == 'Poster') {
+                echo 'auteur :' . $auteur;
+                echo date("Y-m-d H:i:s");
+            }
+            ?>
         </article>
 
     </section>
