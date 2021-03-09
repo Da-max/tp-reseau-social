@@ -1,0 +1,60 @@
+.menu {
+  background-color: red;
+  position: fixed;
+  float: left;
+  width: 180px;
+  padding: 10px;
+}
+
+.contenu {
+  background-color: blue;
+  float: right;
+  width: 70%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.content-textarea {
+  margin-bottom: 20px;
+}
+
+.nouveau-post {
+  background-color: pink;
+  /* margin: 10px; */
+}
+
+.affiche-post {
+  background-color: orange;
+}
+
+.nouveau-post,
+.affiche-post {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 11px;
+  border: black solid 0.5px;
+  text-decoration: none;
+  background-color: rgb(119, 173, 98);
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(85, 141, 63);
+  box-shadow: rgba(13, 56, 2, 0.185) 5px 5px;
+}
+
+.btn:visited {
+  color: black;
+}
+
+.content-file {
+  margin-bottom: 10px;
+}
